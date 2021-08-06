@@ -1,0 +1,16 @@
+[package]
+name = "tmc"
+version = "0.1.0"
+authors = ["James Cook <mokus@deepbondi.net>"]
+description = "Host implementation of the USB Test and Measurement Class"
+license = "Unlicense"
+homepage = "https://github.com/mokus/rust-usb-tmc"
+repository = "https://github.com/mokus/rust-usb-tmc.git"
+readme = "README.md"
+keywords = ["usb", "instrument", "tmc", "usbtmc"]
+categories = ["hardware-support"]
+edition = "2018"
+
+[dependencies]
+byteorder = "1.4.3"
+rusb = "0.8.1"
