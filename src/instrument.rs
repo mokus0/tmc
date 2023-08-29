@@ -1,6 +1,5 @@
 use crate::class::*;
 use crate::{InstrumentHandle, TMCResult};
-use rusb;
 
 /// Information about an instrument detected on the USB bus.
 ///

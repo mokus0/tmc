@@ -47,6 +47,12 @@ impl USBTMCCapabilities {
   }
 }
 
+impl Default for USBTMCCapabilities {
+  fn default() -> Self {
+    Self::new()
+  }
+}
+
 #[derive(Debug, Clone, PartialEq, Eq, Hash)]
 pub struct USB488Capabilities {
   pub bcd_usb488: u16,
