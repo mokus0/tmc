@@ -1,6 +1,6 @@
 [package]
 name = "tmc"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["James Cook <mokus@deepbondi.net>"]
 description = "Host implementation of the USB Test and Measurement Class"
 license = "Unlicense"
@@ -9,8 +9,8 @@ repository = "https://github.com/mokus0/tmc.git"
 readme = "README.md"
 keywords = ["usb", "instrument", "tmc", "usbtmc"]
 categories = ["hardware-support"]
-edition = "2018"
+edition = "2021"
 
 [dependencies]
-byteorder = "1.4.3"
-rusb = "0.8.1"
+byteorder = "1"
+rusb = "0.9"
